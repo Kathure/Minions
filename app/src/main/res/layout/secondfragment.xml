@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.kathure.apppintro.MyIntro"
+    tools:context="com.kathure.minions.MinionsIntro"
     android:background="#6239AB">
 
     <TextView
@@ -32,14 +32,4 @@
         android:src="@drawable/selfie"
         android:contentDescription="selfie" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Minions take a selie"
-        android:id="@+id/textView3"
-        android:textColor="#fff"
-        android:layout_alignBottom="@+id/imageView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="117dp" />
 </RelativeLayout>
