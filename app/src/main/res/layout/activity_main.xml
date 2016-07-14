@@ -1,18 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:example="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.kathure.minions.MainActivity"
-    android:background="#995D81">
+    android:orientation="vertical">
+    <android.lib.widget.verticalmarqueetextview.VerticalMarqueeTextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        example:marqueeSpeed="50"
+        example:textSize="20sp"
+        example:textColor="@android:color/white"
+        example:textStyle="bold"
+        example:text="If you ever fall in love… fall in love with someone who wants to know your
+        favorite color and just how you like your coffee. Fall in love with someone who loves the
+        way you laugh and would do absolutely anything to hear it. Fall in love with someone who
+        puts their head on your chest just to hear your heart beat. " />
+    <android.lib.widget.verticalmarqueetextview.VerticalMarqueeTextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        example:marqueeSpeed="25"
+        example:textSize="20sp"
+        example:textColor="@android:color/white"
+        example:textStyle="bold"
+        example:text="Everyone is getting in relationships
+
+and i can’t even find my other sock." />
 
 
-    <VideoView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/videoView" />
-</RelativeLayout>
+    <android.lib.widget.verticalmarqueetextview.VerticalMarqueeTextView
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        example:marqueeSpeed="25"
+        example:textSize="20sp"
+        example:textColor="@android:color/white"
+        example:textStyle="bold"
+        example:text="If i could turn snarky sarcasm
+
+    into a paying job, i would be employed for life." />
+
+
+</LinearLayout>

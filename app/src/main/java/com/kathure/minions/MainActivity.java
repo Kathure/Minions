@@ -15,18 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        final VideoView myvideoView = (VideoView) findViewById(R.id.videoView);
 
-        myvideoView.setVideoPath("https://static.videezy.com/system/resources/previews/000/000/160/original/RoadTrip.mp4");
-
-        //play pause stop
-
-        MediaController mediaController = new MediaController (this);
-        mediaController.setAnchorView(myvideoView);
-        myvideoView.setMediaController(mediaController);
-
-
-        myvideoView.start();
 
     }
 
